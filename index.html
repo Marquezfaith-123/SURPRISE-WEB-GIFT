@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b20">
+  <title>For You, My Love ❤️💙</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Background video -->
+  <video class="background-video" autoplay muted loop playsinline>
+    <source src="us.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-overlay"></div>
+  <div class="floating-glow"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- FIRST SECTION -->
+  <section class="hero section-visible" id="home">
+    <p class="eyebrow">A LITTLE UNIVERSE MADE FOR YOU</p>
+
+    <h1 class="hero-title">
+      You, Me &<br>
+      <span>Forever.</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      In a world full of people, I'd still look for you.
+    </p>
+
+    <div class="love-circle" id="loveCircle"
+      aria-label="I love you, repeated in a heart shape"></div>
+
+    <p class="scroll-hint">
+      SCROLL DOWN TO DISCOVER MY HEART
+      <span>↓</span>
+    </p>
+  </section>
+
+  <section class="letter-section" id="letter">
+    <p class="eyebrow">SOMETHING FROM MY HEART</p>
+
+    <h2>A little letter,<br><span>just for you.</span></h2>
+
+    <p class="instruction">Tap the heart to open it.</p>
+
+    <button class="origami" id="heartButton"
+      type="button"
+      aria-label="Open my love letter"
+      aria-expanded="false"
+      aria-controls="letterCard">
+
+      <svg class="paper-heart" viewBox="0 0 200 180"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true">
+
+        <path d="M100 160 L20 78 C-8 38 30 2 62 28 L100 62 Z"
+          fill="#ef344f"/>
+
+        <path d="M100 160 L180 78 C208 38 170 2 138 28 L100 62 Z"
+          fill="#3479ff"/>
+
+        <path d="M100 62 L100 160 L20 78 Z"
+          fill="#b71943"/>
+
+        <path d="M100 62 L100 160 L180 78 Z"
+          fill="#1648a7"/>
+
+        <path d="M20 78 L100 62 L62 28 Z"
+          fill="#ff7588"/>
+
+        <path d="M180 78 L100 62 L138 28 Z"
+          fill="#8bb9ff"/>
+
+        <path d="M100 62 L62 28 L100 43 L138 28 Z"
+          fill="#ffffff" opacity=".35"/>
+      </svg>
+
+      <span class="heart-label">TAP ME ♥</span>
+    </button>
+
+    <!-- YOUR LETTER -->
+    <article class="letter-card" id="letterCard" hidden>
+      <p class="letter-kicker">OPEN WHENEVER YOU NEED A REMINDER</p>
+
+      <h3>To my favorite person,</h3>
+
+      <div class="letter-content">
+        <p>My Baby,</p>
+
+        <p>
+          If there's one thing I want you to know, it's how thankful
+          I am that you became a part of my life. You make ordinary
+          days feel special just by being in them.
+        </p>
+
+        <p>
+          Thank you for the little things, the laughter, the memories,
+          and the moments that become my favorite stories. I hope we
+          keep learning, growing, and choosing to understand each other.
+        </p>
+
+        <p>
+          No website could ever hold all the things I want to tell you,
+          but I hope this little corner of the internet reminds you
+          that you are loved and appreciated.
+        </p>
+
+        <p class="signature">
+          Always with love,<br>
+          <span>Your only girl ♥</span>
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <!-- THIRD SECTION: SECOND SURPRISE -->
+  <section class="final-section" id="surprise">
+    <div class="final-star">✦</div>
+
+    <p class="eyebrow">ONE LAST LITTLE SURPRISE</p>
+
+    <h2>Ready to revisit<br><span>our little world?</span></h2>
+
+    <p>
+      Every picture holds a moment. Every moment holds a memory.
+      And every memory is a little piece of us.
+    </p>
+
+    <a class="memory-link" href="memories.html">
+      <span>OPEN OUR MEMORY BOOK</span>
+      <span class="link-arrow">↗</span>
+    </a>
+
+    <p class="footer-note">MADE WITH LOVE, JUST FOR YOU ♥</p>
+  </section>
+
+</body>
+</html>

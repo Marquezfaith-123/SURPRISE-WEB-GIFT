@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Little Memories</title>
+    <link rel="stylesheet" href="memories.css">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <header class="memory-header">
+        <p class="eyebrow">A LITTLE PIECE OF US</p>
+        <h1>Our Little Memories</h1>
+        <p class="subtitle">
+            Every picture holds a moment I never want to forget.
+        </p>
+        <div class="heart-divider">♥ ♥ ♥</div>
+    </header>
+
+    <main>
+
+      <section class="music-player">
+            <div class="music-icon">♫</div>
+            <div class="music-details">
+                <p class="music-title">A song for our memories</p>
+                <p class="music-subtitle">Press play and stay awhile</p>
+            </div>
+            <button id="musicToggle" type="button" aria-pressed="false">
+                ▶ Play music
+            </button>
+            <audio id="ourSong" loop preload="metadata">
+                <source src="our-song.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </section>
+
+        <section class="scrapbook" aria-label="Our photo memories">
+
+            <figure class="polaroid memo-1">
+                <span class="tape"></span>
+                <img src="memo1.jpg" alt="Our memory 1" draggable="false">
+                <figcaption>One of my favorite moments</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-2">
+                <span class="tape"></span>
+                <img src="memo2.jpg" alt="Our memory 2" draggable="false">
+                <figcaption>A moment worth keeping</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-3">
+                <span class="tape"></span>
+                <img src="memo3.jpg" alt="Our memory 3" draggable="false">
+                <figcaption>Little things, big feelings</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-4">
+                <span class="tape"></span>
+                <img src="memo4.jpg" alt="Our memory 4" draggable="false">
+                <figcaption>A day to remember</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-5">
+                <span class="tape"></span>
+                <img src="memo5.jpg" alt="Our memory 5" draggable="false">
+                <figcaption>Saved in my heart</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-6">
+                <span class="tape"></span>
+                <img src="memo6.jpg" alt="Our memory 6" draggable="false">
+                <figcaption>Graduate together</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-7">
+                <span class="tape"></span>
+                <img src="memo7.jpg" alt="Our memory 7" draggable="false">
+                <figcaption>Achieving goals together</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-8">
+                <span class="tape"></span>
+                <img src="memo8.jpg" alt="Our memory 8" draggable="false">
+                <figcaption>Moments like this</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-9">
+                <span class="tape"></span>
+                <img src="memo9.jpg" alt="Our memory 9" draggable="false">
+                <figcaption>One for the scrapbook</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-10">
+                <span class="tape"></span>
+                <img src="memo10.jpg" alt="Our memory 10" draggable="false">
+                <figcaption>Another lovely memory</figcaption>
+            </figure>
+
+            <figure class="polaroid memo-11">
+                <span class="tape"></span>
+                <img src="memo11.jpg" alt="Our memory 11" draggable="false">
+                <figcaption>And many more to come</figcaption>
+            </figure>
+
+        </section>
+
+        <section class="closing-message">
+            <span class="closing-heart">♥</span>
+            <h2>Little moments, endless memories.</h2>
+            <p>
+                No matter how much time passes, these moments will always
+                have a special place in my heart.
+            </p>
+            <p class="signature">Made with love, just for you.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>OUR LITTLE CORNER OF THE WORLD ♥</p>
+    </footer>
+
+    <script src="memories.js"></script>
+</body>
+</html>
